@@ -38,7 +38,7 @@ def hbnb():
     places = sorted(places, key=lambda k: k.name)
     uuid_ = uuid.uuid4()
 
-    return render_template("1-hbnb.html",
+    return render_template("2-hbnb.html",
                            states=st_ct,
                            amenities=amenities,
                            places=places,
