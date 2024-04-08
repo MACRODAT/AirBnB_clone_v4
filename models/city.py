@@ -19,7 +19,7 @@ class City(BaseModel, Base):
                               cascade="all, delete, delete-orphan")
     else:
         state_id = ""
-        name = ""
+        name = "city"
 
     def __init__(self, *args, **kwargs):
         """initializes city"""

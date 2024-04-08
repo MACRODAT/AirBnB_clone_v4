@@ -1,0 +1,2 @@
+root3ROOT~
+HBNB_MYSQL_USER=nesd HBNB_MYSQL_PWD='root3ROOT~' HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev HBNB_TYPE_STORAGE=db python3 -m web_dynamic.0-hbnb

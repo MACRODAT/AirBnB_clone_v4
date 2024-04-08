@@ -40,9 +40,9 @@ class Place(BaseModel, Base):
                                  secondary=place_amenity,
                                  viewonly=False)
     else:
-        city_id = ""
-        user_id = ""
-        name = ""
+        city_id = "-1"
+        user_id = "-1"
+        name = "place"
         description = ""
         number_rooms = 0
         number_bathrooms = 0

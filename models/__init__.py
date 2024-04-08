@@ -3,10 +3,11 @@
 initialize the models package
 """
 
-from os import getenv
-
+from os import getenv, environ
+    
 
 storage_t = getenv("HBNB_TYPE_STORAGE")
+print(environ)
 
 if storage_t == "db":
     from models.engine.db_storage import DBStorage

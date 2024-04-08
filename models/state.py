@@ -18,7 +18,7 @@ class State(BaseModel, Base):
                               backref="state",
                               cascade="all, delete, delete-orphan")
     else:
-        name = ""
+        name = "state"
 
     def __init__(self, *args, **kwargs):
         """initializes state"""
